@@ -5,7 +5,7 @@ body {
     margin: auto;
     padding: 10px;
     text-align: center;
-height: 100vh;
+    height: 100vh;
     flex-direction: column;
     flex-wrap: nowrap;
     align-content: center;
@@ -14,15 +14,18 @@ height: 100vh;
     transition: all 0.7s ease-in-out;
 
 }
-@media screen and (max-width:600px){
-    body{
+
+@media screen and (max-width:600px) {
+    body {
         transform: scale(78%);
 
     }
-    .card{
+
+    .card {
         transform: translateY(-15%);
     }
 }
+
 h1 {
     font-family: sans-serif;
     font-weight: 700;
@@ -56,7 +59,8 @@ h1 {
     display: flex;
 
 }
-input{
+
+input {
     border-radius: 8px;
     font-size: x-large;
     padding: 16px;
@@ -66,7 +70,8 @@ input{
     text-decoration: none;
     outline: none;
 }
-button{
+
+button {
     width: 160px;
     border-radius: 5px;
     font-size: large;
@@ -77,4 +82,16 @@ button{
     font-size: larger;
     cursor: pointer;
     box-shadow: 8px 8px 16px rgb(67, 130, 150);
+}
+
+.cred {
+    font-family: sans-serif;
+    padding: 2px;
+    margin: 15px;
+}
+
+a {
+    text-decoration: none;
+    font-size: medium;
+
 }
