@@ -71,6 +71,14 @@ input {
     outline: none;
 }
 
+h6 {
+    font-size: small;
+    font-family: sans-serif;
+    padding: 3px;
+    margin-top: -50px;
+    font-weight: 100;
+}
+
 button {
     width: 160px;
     border-radius: 5px;
